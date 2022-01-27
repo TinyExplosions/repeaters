@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F743E444279AFAF900C0CE91 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F743E443279AFAF900C0CE91 /* LocationManager.swift */; };
+		F783D2BB279B190600742BD9 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783D2BA279B190600742BD9 /* FavouriteButton.swift */; };
+		F7A31A7127A1828800D50B2C /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = F7A31A7027A1828800D50B2C /* hikeData.json */; };
+		F7A31A7327A182A600D50B2C /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A31A7227A182A600D50B2C /* Hike.swift */; };
+		F7A31A7927A1832200D50B2C /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A31A7527A1832200D50B2C /* GraphCapsule.swift */; };
+		F7A31A7A27A1832200D50B2C /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A31A7627A1832200D50B2C /* HikeGraph.swift */; };
+		F7A31A7B27A1832200D50B2C /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A31A7727A1832200D50B2C /* HikeDetail.swift */; };
+		F7A31A7C27A1832200D50B2C /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A31A7827A1832200D50B2C /* HikeView.swift */; };
+		F7A31A7E27A185F300D50B2C /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A31A7D27A185F300D50B2C /* HikeBadge.swift */; };
+		F7A31A8027A2A82B00D50B2C /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A31A7F27A2A82B00D50B2C /* ProfileEditor.swift */; };
+		F7B05711279B1A390009337A /* RepeaterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B05710279B1A390009337A /* RepeaterRow.swift */; };
+		F7B05713279C173E0009337A /* BigMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B05712279C173E0009337A /* BigMap.swift */; };
+		F7B0571927A16CE60009337A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0571827A16CE60009337A /* Helper.swift */; };
+		F7B0571F27A179F10009337A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0571E27A179F10009337A /* Profile.swift */; };
+		F7B0572327A17A4B0009337A /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0572227A17A4B0009337A /* ProfileHost.swift */; };
+		F7B0572527A17A7B0009337A /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0572427A17A7B0009337A /* ProfileSummary.swift */; };
+		F7B0572727A17C250009337A /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0572627A17C250009337A /* HexagonParameters.swift */; };
+		F7B0572927A17CE40009337A /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0572827A17CE40009337A /* BadgeBackground.swift */; };
+		F7B0572B27A17EB20009337A /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0572A27A17EB20009337A /* BadgeSymbol.swift */; };
+		F7B0572D27A17FEF0009337A /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0572C27A17FEF0009337A /* RotatedBadgeSymbol.swift */; };
+		F7B0572F27A180260009337A /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B0572E27A180260009337A /* Badge.swift */; };
 		F7B41308279ABAAB0071D9C4 /* RepeatersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B41307279ABAAB0071D9C4 /* RepeatersApp.swift */; };
 		F7B4130A279ABAAB0071D9C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B41309279ABAAB0071D9C4 /* ContentView.swift */; };
 		F7B4130C279ABAAD0071D9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B4130B279ABAAD0071D9C4 /* Assets.xcassets */; };
 		F7B4130F279ABAAD0071D9C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B4130E279ABAAD0071D9C4 /* Preview Assets.xcassets */; };
+		F7B41316279ABDA10071D9C4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B41315279ABDA10071D9C4 /* CircleImage.swift */; };
+		F7B41318279ABEB30071D9C4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B41317279ABEB30071D9C4 /* MapView.swift */; };
+		F7B4131A279AC17C0071D9C4 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = F7B41319279AC17C0071D9C4 /* landmarkData.json */; };
+		F7B4131C279AC1A50071D9C4 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4131B279AC1A50071D9C4 /* Repeater.swift */; };
+		F7B4131E279AC4780071D9C4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4131D279AC4780071D9C4 /* ModelData.swift */; };
+		F7B41325279AC8340071D9C4 /* RepeaterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B41324279AC8340071D9C4 /* RepeaterList.swift */; };
+		F7B41327279AC9740071D9C4 /* RepeaterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B41326279AC9740071D9C4 /* RepeaterDetail.swift */; };
+		F7B4132A279AD5210071D9C4 /* repeatersData.json in Resources */ = {isa = PBXBuildFile; fileRef = F7B41329279AD5210071D9C4 /* repeatersData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F743E443279AFAF900C0CE91 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F743E446279AFBAC00C0CE91 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F743E448279AFD6D00C0CE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F783D2BA279B190600742BD9 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
+		F7A31A7027A1828800D50B2C /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		F7A31A7227A182A600D50B2C /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		F7A31A7527A1832200D50B2C /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		F7A31A7627A1832200D50B2C /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		F7A31A7727A1832200D50B2C /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		F7A31A7827A1832200D50B2C /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		F7A31A7D27A185F300D50B2C /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		F7A31A7F27A2A82B00D50B2C /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		F7B05710279B1A390009337A /* RepeaterRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeaterRow.swift; sourceTree = "<group>"; };
+		F7B05712279C173E0009337A /* BigMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMap.swift; sourceTree = "<group>"; };
+		F7B0571827A16CE60009337A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F7B0571E27A179F10009337A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F7B0572227A17A4B0009337A /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		F7B0572427A17A7B0009337A /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		F7B0572627A17C250009337A /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		F7B0572827A17CE40009337A /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		F7B0572A27A17EB20009337A /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		F7B0572C27A17FEF0009337A /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		F7B0572E27A180260009337A /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		F7B41304279ABAAB0071D9C4 /* Repeaters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repeaters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B41307279ABAAB0071D9C4 /* RepeatersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatersApp.swift; sourceTree = "<group>"; };
 		F7B41309279ABAAB0071D9C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7B4130B279ABAAD0071D9C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B4130E279ABAAD0071D9C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7B41315279ABDA10071D9C4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F7B41317279ABEB30071D9C4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F7B41319279AC17C0071D9C4 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		F7B4131B279AC1A50071D9C4 /* Repeater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
+		F7B4131D279AC4780071D9C4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F7B41324279AC8340071D9C4 /* RepeaterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeaterList.swift; sourceTree = "<group>"; };
+		F7B41326279AC9740071D9C4 /* RepeaterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeaterDetail.swift; sourceTree = "<group>"; };
+		F7B41329279AD5210071D9C4 /* repeatersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = repeatersData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,11 +92,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F743E445279AFBAC00C0CE91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F743E446279AFBAC00C0CE91 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F783D2BC279B19AA00742BD9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F7B41315279ABDA10071D9C4 /* CircleImage.swift */,
+				F7B41317279ABEB30071D9C4 /* MapView.swift */,
+				F783D2BA279B190600742BD9 /* FavouriteButton.swift */,
+				F7B05712279C173E0009337A /* BigMap.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F783D2BD279B19BC00742BD9 /* Repeaters */ = {
+			isa = PBXGroup;
+			children = (
+				F7B05710279B1A390009337A /* RepeaterRow.swift */,
+				F7B41324279AC8340071D9C4 /* RepeaterList.swift */,
+				F7B41326279AC9740071D9C4 /* RepeaterDetail.swift */,
+			);
+			path = Repeaters;
+			sourceTree = "<group>";
+		};
+		F7A31A6F27A181EA00D50B2C /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				F7B0572627A17C250009337A /* HexagonParameters.swift */,
+				F7B0572827A17CE40009337A /* BadgeBackground.swift */,
+				F7B0572A27A17EB20009337A /* BadgeSymbol.swift */,
+				F7B0572C27A17FEF0009337A /* RotatedBadgeSymbol.swift */,
+				F7B0572E27A180260009337A /* Badge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		F7A31A7427A1832200D50B2C /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				F7A31A7527A1832200D50B2C /* GraphCapsule.swift */,
+				F7A31A7627A1832200D50B2C /* HikeGraph.swift */,
+				F7A31A7727A1832200D50B2C /* HikeDetail.swift */,
+				F7A31A7827A1832200D50B2C /* HikeView.swift */,
+				F7A31A7D27A185F300D50B2C /* HikeBadge.swift */,
+			);
+			path = Hikes;
+			sourceTree = "<group>";
+		};
+		F7B0572027A17A230009337A /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				F7B0572227A17A4B0009337A /* ProfileHost.swift */,
+				F7B0572427A17A7B0009337A /* ProfileSummary.swift */,
+				F7A31A7F27A2A82B00D50B2C /* ProfileEditor.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
 		F7B412FB279ABAAB0071D9C4 = {
 			isa = PBXGroup;
 			children = (
 				F7B41306279ABAAB0071D9C4 /* Repeaters */,
 				F7B41305279ABAAB0071D9C4 /* Products */,
+				F743E445279AFBAC00C0CE91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +175,12 @@
 		F7B41306279ABAAB0071D9C4 /* Repeaters */ = {
 			isa = PBXGroup;
 			children = (
+				F743E448279AFD6D00C0CE91 /* Info.plist */,
 				F7B41307279ABAAB0071D9C4 /* RepeatersApp.swift */,
-				F7B41309279ABAAB0071D9C4 /* ContentView.swift */,
 				F7B4130B279ABAAD0071D9C4 /* Assets.xcassets */,
+				F7B41321279AC5210071D9C4 /* Resources */,
+				F7B41320279AC5170071D9C4 /* Model */,
+				F7B4131F279AC4F50071D9C4 /* Views */,
 				F7B4130D279ABAAD0071D9C4 /* Preview Content */,
 			);
 			path = Repeaters;
@@ -65,6 +192,42 @@
 				F7B4130E279ABAAD0071D9C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7B4131F279AC4F50071D9C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7A31A7427A1832200D50B2C /* Hikes */,
+				F7B0572027A17A230009337A /* Profiles */,
+				F783D2BD279B19BC00742BD9 /* Repeaters */,
+				F7B41309279ABAAB0071D9C4 /* ContentView.swift */,
+				F783D2BC279B19AA00742BD9 /* Helpers */,
+				F7A31A6F27A181EA00D50B2C /* Badges */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7B41320279AC5170071D9C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4131B279AC1A50071D9C4 /* Repeater.swift */,
+				F7B4131D279AC4780071D9C4 /* ModelData.swift */,
+				F7B0571E27A179F10009337A /* Profile.swift */,
+				F7A31A7227A182A600D50B2C /* Hike.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7B41321279AC5210071D9C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7A31A7027A1828800D50B2C /* hikeData.json */,
+				F7B41329279AD5210071D9C4 /* repeatersData.json */,
+				F7B41319279AC17C0071D9C4 /* landmarkData.json */,
+				F743E443279AFAF900C0CE91 /* LocationManager.swift */,
+				F7B0571827A16CE60009337A /* Helper.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +290,9 @@
 			files = (
 				F7B4130F279ABAAD0071D9C4 /* Preview Assets.xcassets in Resources */,
 				F7B4130C279ABAAD0071D9C4 /* Assets.xcassets in Resources */,
+				F7B4131A279AC17C0071D9C4 /* landmarkData.json in Resources */,
+				F7B4132A279AD5210071D9C4 /* repeatersData.json in Resources */,
+				F7A31A7127A1828800D50B2C /* hikeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +304,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B4130A279ABAAB0071D9C4 /* ContentView.swift in Sources */,
+				F7B41325279AC8340071D9C4 /* RepeaterList.swift in Sources */,
+				F743E444279AFAF900C0CE91 /* LocationManager.swift in Sources */,
+				F7B0572D27A17FEF0009337A /* RotatedBadgeSymbol.swift in Sources */,
+				F7A31A7327A182A600D50B2C /* Hike.swift in Sources */,
+				F7B0572327A17A4B0009337A /* ProfileHost.swift in Sources */,
+				F7A31A7927A1832200D50B2C /* GraphCapsule.swift in Sources */,
+				F7A31A7C27A1832200D50B2C /* HikeView.swift in Sources */,
+				F7B0572727A17C250009337A /* HexagonParameters.swift in Sources */,
+				F7B0571F27A179F10009337A /* Profile.swift in Sources */,
+				F7A31A7B27A1832200D50B2C /* HikeDetail.swift in Sources */,
+				F7B0572F27A180260009337A /* Badge.swift in Sources */,
+				F7B41318279ABEB30071D9C4 /* MapView.swift in Sources */,
+				F7B05711279B1A390009337A /* RepeaterRow.swift in Sources */,
 				F7B41308279ABAAB0071D9C4 /* RepeatersApp.swift in Sources */,
+				F7A31A7A27A1832200D50B2C /* HikeGraph.swift in Sources */,
+				F7B0572B27A17EB20009337A /* BadgeSymbol.swift in Sources */,
+				F7B41327279AC9740071D9C4 /* RepeaterDetail.swift in Sources */,
+				F7A31A8027A2A82B00D50B2C /* ProfileEditor.swift in Sources */,
+				F7B05713279C173E0009337A /* BigMap.swift in Sources */,
+				F7B4131C279AC1A50071D9C4 /* Repeater.swift in Sources */,
+				F783D2BB279B190600742BD9 /* FavouriteButton.swift in Sources */,
+				F7B0572927A17CE40009337A /* BadgeBackground.swift in Sources */,
+				F7A31A7E27A185F300D50B2C /* HikeBadge.swift in Sources */,
+				F7B0571927A16CE60009337A /* Helper.swift in Sources */,
+				F7B41316279ABDA10071D9C4 /* CircleImage.swift in Sources */,
+				F7B0572527A17A7B0009337A /* ProfileSummary.swift in Sources */,
+				F7B4131E279AC4780071D9C4 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +461,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Repeaters/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VDYBU89S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Repeaters/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "more stuff";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Something something stuff";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,11 +494,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Repeaters/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VDYBU89S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Repeaters/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "more stuff";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Something something stuff";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

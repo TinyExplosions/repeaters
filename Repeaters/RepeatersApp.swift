@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct RepeatersApp: App {
+    @StateObject private var modelData = ModelData()
+    @StateObject private var locationData = LocationManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
+                .environmentObject(locationData)
         }
     }
 }
